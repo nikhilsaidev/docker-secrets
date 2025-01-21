@@ -1,0 +1,119 @@
+version: '3.8'
+
+services:
+  app:
+    build: ./app
+    secrets:
+      - secret1
+      - secret2
+      - secret3
+      - secret4
+      - secret5
+      - secret6
+      - secret7
+      - secret8
+      - secret9
+      - secret10
+      - secret11
+      - secret12
+      - secret13
+      - secret14
+      - secret15
+      - secret16
+      - secret17
+      - secret18
+      - secret19
+      - secret20
+      - secret21
+      - secret22
+      - secret23
+      - secret24
+      - secret25
+      - secret26
+      - secret27
+      - secret28
+      - secret29
+      - secret30
+      - secret31
+      - secret32
+      - secret33
+      - secret34
+      - secret35
+      - secret36
+
+    ports:
+      - "5000:80"
+secrets:
+  secret1:
+    file: ./secrets/secret1.pem
+  secret2:
+    file: ./secrets/secret2.pem
+  secret3:
+    file: ./secrets/secret3.pem
+  secret4:
+    file: ./secrets/secret4.pem
+  secret5:
+    file: ./secrets/secret5.pem
+  secret6:
+    file: ./secrets/secret6.pem
+  secret7:
+    file: ./secrets/secret7.pem
+  secret8:
+    file: ./secrets/secret8.pem
+  secret9:
+    file: ./secrets/secret9.pem
+  secret10:
+    file: ./secrets/secret10.pem
+  secret11:
+    file: ./secrets/secret11.pem
+  secret12:
+    file: ./secrets/secret12.pem
+  secret13:
+    file: ./secrets/secret13.pem
+  secret14:
+    file: ./secrets/secret14.pem
+  secret15:
+    file: ./secrets/secret15.pem
+  secret16:
+    file: ./secrets/secret16.pem
+  secret17:
+    file: ./secrets/secret17.pem
+  secret18:
+    file: ./secrets/secret18.pem
+  secret19:
+    file: ./secrets/secret19.pem
+  secret20:
+    file: ./secrets/secret20.pem
+  secret21:
+    file: ./secrets/secret21.pem
+  secret22:
+    file: ./secrets/secret22.pem
+  secret23:
+    file: ./secrets/secret23.pem
+  secret24:
+    file: ./secrets/secret24.pem
+  secret25:
+    file: ./secrets/secret25.pem
+  secret26:
+    file: ./secrets/secret26.pem
+  secret27:
+    file: ./secrets/secret27.pem
+  secret28:
+    file: ./secrets/secret28.pem
+  secret29:
+    file: ./secrets/secret29.pem
+  secret30:
+    file: ./secrets/secret30.pem
+  secret31:
+    file: ./secrets/secret31.pem
+  secret32:
+    file: ./secrets/secret32.pem
+  secret33:
+    file: ./secrets/secret33.pem
+  secret34:
+    file: ./secrets/secret34.pem
+  secret35:
+    file: ./secrets/secret35.pem
+  secret36:
+    file: ./secrets/secret36.pem
+
